@@ -85,30 +85,66 @@ ul {
     justify-content: left;
 }
 
+.cont1 {
+    display: flex;
+    justify-content: center;
+}
+
+.cont1 h1 {
+    font-weight: bold;
+    margin-bottom: 4vw;
+    margin-top: 10vw;
+}
+
 .mainBox {
     padding: 30px;
     background: skyblue;
     border-radius: 20px;
 }
 
-.containerOne {
+/* .containerOne {
     border: 2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    flex-direction: column;
+    background: white;
+    margin: 10vw 30vw;
+} */
+.containerOne {
+    margin: 300px 500px;
+    background: white;
+    border: 2px solid black;
 }
 
 .con1 {
-    display: flex;
-    /* justify-content: center; */
+    /* display: flex;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; */
+    margin: 50px 200px;
 
 }
 
-.con1 h1 {
+
+button {
+    /* text-align: left; */
+    margin: 10px;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 12px;
+    font-family: 'Source Code Pro', monospace;
     font-weight: bold;
-    /* text-align: center; */
-    margin-top: 10vw;
+    font-size: 20px;
 }
+
+.btn2 {
+    left: 0;
+    background: blue;
+    color: white;
+}
+
+/* .containerOne p {
+    margin-left: -18vw;
+
+} */
