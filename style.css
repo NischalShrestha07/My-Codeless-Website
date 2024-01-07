@@ -42,9 +42,6 @@ ul {
     margin-top: 25px;
     margin-bottom: 25px;
     font-size: 20px;
-
-
-
 }
 
 .con1 {
@@ -54,9 +51,9 @@ ul {
 
 button {
     padding: 11px;
-    font-size: 25px;
+    font-size: 26px;
     font-weight: bold;
     border-radius: 15px;
-    background: linear-gradient(45deg, blue, red);
+    background: linear-gradient(46deg, blue, red);
     color: white;
 }
