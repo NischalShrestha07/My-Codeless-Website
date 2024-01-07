@@ -69,6 +69,46 @@ ul {
 }
 
 .para1 {
-    line-height: 30px;
+    font-size: 23px;
+    line-height: 50px;
     font-family: 'montserret', sans-serif;
+}
+
+.para1 p span {
+    font-weight: bold;
+
+}
+
+.para1 img {
+    display: flex;
+    width: 250px;
+    justify-content: left;
+}
+
+.mainBox {
+    padding: 30px;
+    background: skyblue;
+    border-radius: 20px;
+}
+
+.containerOne {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.con1 {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.con1 h1 {
+    font-weight: bold;
+    /* text-align: center; */
+    margin-top: 10vw;
 }
