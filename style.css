@@ -22,16 +22,23 @@ ul {
     gap: 40px;
 }
 
-.con1 {
+.cont img {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.cont {
     justify-content: center;
     align-items: center;
     display: flex;
-    /* margin: 30px; */
+    gap: 50px;
     background: rgb(208, 200, 200);
 }
 
+
 .container1 h3 {
-    /* border: 2px solid; */
     width: 205px;
     background: skyblue;
     padding: 15px;
@@ -44,16 +51,24 @@ ul {
     font-size: 20px;
 }
 
-.con1 {
-    gap: 50px;
-
-}
-
-button {
+.btn1 {
     padding: 11px;
     font-size: 26px;
     font-weight: bold;
     border-radius: 15px;
     background: linear-gradient(46deg, blue, red);
     color: white;
+}
+
+.detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+
+}
+
+.para1 {
+    line-height: 30px;
+    font-family: 'montserret', sans-serif;
 }
